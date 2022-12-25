@@ -4,7 +4,14 @@ public class PrimeiraClasseJava {
 
 	private String nome;
 	private String sobrenome;
+	private Int idade;
 	
+	public Int getIdade() {
+		return idade;
+	}
+	public void setIdade(Int idade) {
+		this.idade = idade;
+	}
 	public String getNome() {
 		return nome;
 	}
