@@ -1,15 +1,22 @@
 package curso.java.executavel;
-
+import java.util.Date;
 public class PrimeiraClasseJava {
 
 	private String nome;
 	private String sobrenome;
-	private Int idade;
+	private int idade;
+	private Data dataNacimento;
 	
-	public Int getIdade() {
+	public int getIdade() {
 		return idade;
 	}
-	public void setIdade(Int idade) {
+	public Data getDataNacimento() {
+		return dataNacimento;
+	}
+	public void setDataNacimento(Data dataNacimento) {
+		this.dataNacimento = dataNacimento;
+	}
+	public void setIdade(int idade) {
 		this.idade = idade;
 	}
 	public String getNome() {
