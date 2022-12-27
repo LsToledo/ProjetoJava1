@@ -10,15 +10,14 @@ public class PrimeiraClasseJava {
 	public int getIdade() {
 		return idade;
 	}
-	public Data getDataNacimento() {
+
+    public Data getDataNacimento() {
 		return dataNacimento;
 	}
 	public void setDataNacimento(Data dataNacimento) {
 		this.dataNacimento = dataNacimento;
 	}
-	public void setIdade(int idade) {
-		this.idade = idade;
-	}
+
 	public String getNome() {
 		return nome;
 	}
