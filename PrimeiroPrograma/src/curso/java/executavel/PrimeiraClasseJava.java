@@ -5,16 +5,16 @@ public class PrimeiraClasseJava {
 	private String nome;
 	private String sobrenome;
 	private int idade;
-	private Data dataNacimento;
+	private Date dataNacimento;
 	
 	public int getIdade() {
 		return idade;
 	}
 
-    public Data getDataNacimento() {
+    public Date getDataNacimento() {
 		return dataNacimento;
 	}
-	public void setDataNacimento(Data dataNacimento) {
+	public void setDataNacimento(Date dataNacimento) {
 		this.dataNacimento = dataNacimento;
 	}
 
