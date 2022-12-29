@@ -1,35 +1,28 @@
 package curso.java.executavel;
 import java.util.Date;
+
 public class PrimeiraClasseJava {
-
-	private String nome;
-	private String sobrenome;
-	private int idade;
-	private Date dataNacimento;
-	
-	public int getIdade() {
-		return idade;
+	public static void main(String[] args) {
+		int numero2=0;
+		int numero3=0;
+	for (int numero = 0; numero <= 10; numero ++) {
+		System.out.println("O numero é: "+numero);
 	}
-	public Date getDataNacimento() {
-		return dataNacimento;
+	while(numero2 <=15) {
+		numero2++;
+		System.out.println("O numero é: "+ numero2);
 	}
-	public void setDataNacimento(Date dataNacimento) {
-		this.dataNacimento = dataNacimento;
-	}
-	public void setIdade(int idade) {
-		this.idade = idade;
-	}
-	public String getNome() {
-		return nome;
-	}
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-	public String getSobrenome() {
-		return sobrenome;
-	}
-	public void setSobrenome(String sobrenome) {
-		this.sobrenome = sobrenome;
-	}
-
+	do {
+		numero3++;
+		System.out.println("O numero é: " + numero3);
+	}while(numero3 <20);
 }
+}
+
+
+
+
+
+
+
+
