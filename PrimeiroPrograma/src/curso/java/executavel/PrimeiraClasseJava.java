@@ -7,13 +7,20 @@ public class PrimeiraClasseJava {
 	public static void main(String[] args) {
 		
 		
-		String idade = JOptionPane.showInputDialog("Informe a sua idade");
-		String moto = JOptionPane.showInputDialog("Informe a Sua moto");
-		double transorfmando = Double.parseDouble(moto);
-		double transorfmando2 = Double.parseDouble(idade);
+		String ano = JOptionPane.showInputDialog("Informe ano atual");
+		String anonasc = JOptionPane.showInputDialog("Informe o ano de nascimento!");
+		double transorfmando = Double.parseDouble(anonasc);
+		double transorfmando2 = Double.parseDouble(ano);
 
-		double soma = (transorfmando + transorfmando2);
-		System.out.println("Sua idade é :" + soma);
+		double op = (transorfmando2 - transorfmando);
+		JOptionPane.showMessageDialog(null, "Sua idade é :" + op);
+		int resposta =JOptionPane.showConfirmDialog(null," A idade esta correta ?");
+		if (resposta == 0) {
+			JOptionPane.showConfirmDialog(null, "Ok recebemos sua idade confirmada!");
+		}
+		
+		
+		
 }
 }
 
